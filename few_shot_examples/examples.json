@@ -1,0 +1,62 @@
+[
+  {
+    "pdf_path": "few_shot_examples/CA_title_1.pdf",
+    "expected_output":
+    {
+      "title_state": "CALIFORNIA",
+      "title_type": "SALVAGE",
+      "vehicle_vin": "WBY1Z8C31HV894473",
+      "vehicle_year": "2017",
+      "vehicle_make": "BMW",
+      "vehicle_model": "",
+      "title_number": "3381035",
+      "vehicle_registered_owner": "PROGRESSIVE CASUALTY INSURANCE CO C/CO IAA 111 11017 COBBLEROCK DR 150 RNCHO CORDOVA CA 95670",
+      "first_reassignment": "A1 MOTORS LLC ALEJA JANA PAWLA 11 STREET WARSAW XX 01001 PL"
+    }
+  },
+  {
+    "pdf_path": "few_shot_examples/CA_title_2.pdf",
+    "expected_output":
+    {
+      "title_state": "CALIFORNIA",
+      "title_type": "SALVAGE",
+      "vehicle_vin": "58ACZ1B10RU183943",
+      "vehicle_year": "2024",
+      "vehicle_make": "LEXS",
+      "vehicle_model": "",
+      "title_number": "3277864",
+      "vehicle_registered_owner": "TOYOTA LEASE TRUST 8687 WEYAND AVE SACRAMENTO CA 95828",
+      "first_reassignment": "Intertrade Inc 7751 W 88th St, Bridgeview, IL 60455-1919, USA"
+    }
+  },
+  {
+    "pdf_path": "few_shot_examples/TX_title_1.pdf",
+    "expected_output":
+    {
+      "title_state": "TEXAS",
+      "title_type": "SALVAGE",
+      "vehicle_vin": "58ADZ1B16RU183742",
+      "vehicle_year": "2024",
+      "vehicle_make": "LEXS",
+      "vehicle_model": "ES3",
+      "title_number": "29752045752250064",
+      "vehicle_registered_owner": "TOKIO MARINE AMERICA INS CO LT 2839 E. FM 1462 RD. ROSHARON, TX 77583",
+      "first_reassignment": "Intertrade Inc. 7751 W.88th St. Bridgeview, IL 60455"
+    }
+  },
+  {
+    "pdf_path": "few_shot_examples/TX_title_2.pdf",
+    "expected_output":
+    {
+      "title_state": "TEXAS",
+      "title_type": "TITLE",
+      "vehicle_vin": "JTDAAAAF0P3006464",
+      "vehicle_year": "2023",
+      "vehicle_make": "TOYT",
+      "vehicle_model": "CRO",
+      "title_number": "01126045734132832",
+      "vehicle_registered_owner": "PROGRESSIVE CASUALTY INSURANCE COMPANY 1340 AIRPORT COMMERCE DRIVE SUITE 490 AUSTIN, TX 78741",
+      "first_reassignment": "Intertrade Inc 7751 W 88th St. Bridgeview IL 60455"
+    }
+  }
+]
